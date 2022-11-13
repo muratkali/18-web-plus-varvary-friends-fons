@@ -1,0 +1,15 @@
+.intro__title {
+  max-width: 647px;
+  margin-bottom: 56px;
+}
+
+.intro__title::after {
+  content: '';
+  display: block;
+  width: 151px;
+  height: 63px;
+  border-radius: 136px;
+  position: absolute;
+  top: 301px;
+  left: -75px;
+}

@@ -1,3 +1,20 @@
+/* Berlin */
+@font-face {
+  font-family: 'Berlin Type';
+  font-style:  normal;
+  font-weight: 400;
+  src: url("BerlinTypeWeb-Regular.woff2") format("woff2"),
+       url("BerlinTypeWeb-Regular.woff") format("woff");
+}
+
+@font-face {
+  font-family: 'Berlin Type';
+  font-style:  normal;
+  font-weight: 700;
+  src: url("BerlinTypeWeb-Bold.woff2") format("woff2"),
+       url("BerlinTypeWeb-Bold.woff") format("woff");
+}
+
 /* Inter */
 @font-face {
   font-family: 'Inter';

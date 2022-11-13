@@ -343,3 +343,23 @@
 @import url("../blocks/switch/__visible-radio/_el/switch__visible-radio_el_monthly.css");
 @import url("../blocks/bankCard/__descriprtion/bankCard__description.css");
 @import url("../blocks/bankCard/__descriprtion/_visability/bankCard__description_visibility.css");
+
+/*---------added blocks by Artur Karamov ----------- */
+@import url("../blocks/page-title/page-title.css");
+@import url("../blocks/intro/intro.css");
+@import url("../blocks/intro/__title/intro__title.css");
+@import url("../blocks/intro/__subtitle/intro__subtitle.css");
+@import url("../blocks/intro/_page/_about-fund/intro_page_about-fund.css");
+@import url("../blocks/intro/_page/_for-business/intro_page_for-business.css");
+@import url("../blocks/intro/_page/_for-NKO/intro_page_for-NKO.css");
+
+@import url("../blocks/block/_color/_azure/block_color_azure.css");
+@import url("../blocks/block/_color/_blue/block_color_blue.css");
+@import url("../blocks/block/_color/_purple/block_color_purple.css");
+@import url("../blocks/block/_color/_sky/block_color_sky.css");
+@import url("../blocks/block/_color/_white/block_color_white.css");
+@import url("../blocks/block/_color/_yellow/block_color_yellow.css");
+
+* {
+  font-family: "Berlin Type", "Inter";
+}

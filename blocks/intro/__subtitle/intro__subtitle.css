@@ -1,0 +1,44 @@
+.intro__subtitle {
+  box-sizing: border-box;
+  margin: 0;
+  margin-bottom: 16px;
+  padding: 0;
+  max-width: 767px;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 29px;
+}
+
+.intro__subtitle::after {
+  content: '';
+  display: block;
+  width: 151px;
+  height: 63px;
+  border-radius: 136px;
+  position: absolute;
+  top: 549px;
+  right: 124px;
+}
+
+.intro__subtitle:last-child::before {
+  content: '';
+  display: block;
+  width: 17px;
+  height: 17px;
+  border-radius: 136px;
+  position: absolute;
+  left: 1081px;
+  top: 606px;
+}
+
+.intro__subtitle:last-child::after {
+  content: '';
+  display: block;
+  width: 7px;
+  height: 7px;
+  border-radius: 136px;
+  position: absolute;
+  left: 96px;
+  top: 328px;
+}
