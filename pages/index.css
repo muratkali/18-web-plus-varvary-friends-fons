@@ -348,10 +348,12 @@
 @import url("../blocks/page-title/page-title.css");
 @import url("../blocks/intro/intro.css");
 @import url("../blocks/intro/__title/intro__title.css");
+@import url("../blocks/intro/__title/_short/intro__title_short.css"); /*лайн хайт меньше*/
 @import url("../blocks/intro/__subtitle/intro__subtitle.css");
-@import url("../blocks/intro/_page/_about-fund/intro_page_about-fund.css");
-@import url("../blocks/intro/_page/_for-business/intro_page_for-business.css");
-@import url("../blocks/intro/_page/_for-NKO/intro_page_for-NKO.css");
+@import url("../blocks/intro/__subtitle/_short/intro__subtitle_short.css"); /*лайн хайт меньше*/
+@import url("../blocks/intro/_color/_blue/intro_color_blue.css");
+@import url("../blocks/intro/_color/_grey/intro_color_grey.css");
+@import url("../blocks/intro/_color/_purple/intro_color_purple.css");
 
 @import url("../blocks/block/_color/_azure/block_color_azure.css");
 @import url("../blocks/block/_color/_blue/block_color_blue.css");

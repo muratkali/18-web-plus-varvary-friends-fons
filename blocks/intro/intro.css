@@ -1,6 +1,7 @@
 .intro {
   box-sizing: border-box;
   width: 100%;
+  min-height: 568px;
   margin: 0 auto;
   padding-top: calc(56px + 48px);
   padding-left: 124px;
