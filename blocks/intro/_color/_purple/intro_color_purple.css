@@ -1,4 +1,7 @@
 .intro_color_purple {
   background-color: #82607d;
-  color: #FFFFFF;
+  background-image: url("../../../../images/decorPurple.svg");
+  background-position: bottom left;
+  background-repeat: no-repeat;
+  color: #fff;
 }

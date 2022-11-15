@@ -1,0 +1,10 @@
+.slider__option {
+  margin: 0;
+  padding: 0;
+  border: none;
+  background-color: transparent;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 50px;
+  cursor: pointer;
+}

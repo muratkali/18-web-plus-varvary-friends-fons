@@ -1,4 +1,7 @@
 .intro_color_blue {
   background-color: #77c5d5;
-  color: #FFFFFF;
+  background-image: url("../../../../images/decorBlue.svg");
+  background-position: bottom left;
+  background-repeat: no-repeat;
+  color: #fff;
 }

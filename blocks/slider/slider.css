@@ -1,0 +1,10 @@
+.slider {
+  width: 100%;
+  display: flex;
+  gap: 40px;
+  margin-top: 42px;
+  white-space: nowrap;
+  overflow: auto;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}

@@ -1,4 +1,7 @@
 .intro_color_grey {
   background-color: #f8f8f8;
+  background-image: url("../../../../images/decorWhite.svg");
+  background-position: bottom left;
+  background-repeat: no-repeat;
   color: #000;
 }
