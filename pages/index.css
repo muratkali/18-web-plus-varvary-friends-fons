@@ -343,3 +343,184 @@
 @import url("../blocks/switch/__visible-radio/_el/switch__visible-radio_el_monthly.css");
 @import url("../blocks/bankCard/__descriprtion/bankCard__description.css");
 @import url("../blocks/bankCard/__descriprtion/_visability/bankCard__description_visibility.css");
+
+/* ABOUT-FUND-PAGE */
+/*------- by Alexander Markin------*/
+
+/* about fund section */
+
+.about-fund {
+  width: 100%;
+  max-width: 1280px;
+  background-color: #F8F8F8;
+  box-sizing: border-box;
+  padding: 48px 0 80px 9.68%;
+  position: relative;
+  overflow: hidden;
+}
+
+/* вензеля всякие */
+.about-fund__bulb {
+  position: absolute;
+  z-index: 0;
+  background-color: #FFFFFF;
+  border-radius: 136px;
+  width: 100%;
+  max-width: 576px;
+  height: 100%;
+  max-height: 233px;
+  top: 194px;
+  right: -251px;
+}
+
+.about-fund__bulb::after {
+  content: ' ';
+  position: absolute;
+  top: 136px;
+  left: 186px;
+  background-color: #77C5D5;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  z-index: 2;
+}
+
+.about-fund__bulb_middle_right {
+  max-width: 151px;
+  max-height: 63px;
+  top: 493px;
+  right: 124px;
+}
+
+.about-fund__bulb_middle_right::after {
+  top: 57px;
+  left: 76px;
+  background-color: #EEB250;
+  width: 17px;
+  height: 17px;
+
+}
+
+.about-fund__bulb_middle_left {
+  top: 245px;
+  left: -75px;
+  max-width: 151px;
+  max-height: 63px;
+}
+
+.about-fund__bulb_middle_left::after {
+  top: 50%;
+  right: -20px;
+  background-color: #EEB250;
+}
+
+
+/* заголовок и тексты */
+.section__title_about-fund {
+  font-family: "Berlin Type", "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 62px;
+  line-height: 86px;
+  margin-bottom: 56px;
+}
+
+
+
+.about-fund__text-block {
+  width: 80%;
+  max-width: 767px;
+  display: flex;
+  flex-direction: column;
+  gap: 29px;
+  z-index: 2;
+  position: relative;
+}
+
+.about-fund__text {
+  width: 100%;
+  font-family: "Berlin Type", "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 29px;
+}
+
+
+/* what-we-do section */
+
+.activity {
+  width: 100%;
+  max-width: 1280px;
+  background-color: #fff;
+  box-sizing: border-box;
+  padding: 96px 0;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+}
+
+@media screen and (max-width: 500px) {
+  .activity {
+    padding: 56px 0;
+  }
+}
+
+.section__title_activity {
+  font-family: "Berlin Type", "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 50px;
+}
+
+@media screen and (max-width: 500px) {
+  .section__title_activity {
+    font-size: 32px;
+  }
+}
+
+.listing {
+  width: 80%;
+  max-width: 706px;
+  list-style-type: square;
+  list-style-image: url(../images/Rectangle\ 506.png);
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  margin: 0;
+  gap: 12px;
+  box-sizing: border-box;
+}
+
+.listing__point {
+  font-family: "Berlin Type", "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  position: relative;
+  width: 100%;
+  padding-left: 18px;
+}
+
+@media screen and (max-width: 500px) {
+  .listing__point {
+    line-height: 26px;
+    padding-left: 8px;
+
+  }
+}
+
+.listing__point_mobile-hide {
+  display: list-item;
+}
+
+@media screen and (max-width: 500px) {
+  .listing__point_mobile-hide {
+    display: none;
+  }
+}
+
+
