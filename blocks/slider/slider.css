@@ -8,3 +8,14 @@
   -ms-overflow-style: none;
   scrollbar-width: none;
 }
+
+.slider::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+}
+
+@media screen and (max-width: 736px) {
+  .slider {
+    gap: 16px;
+  }
+}

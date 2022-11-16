@@ -349,7 +349,6 @@
 @import url("../blocks/slider/slider.css");
 @import url("../blocks/slider/__option/slider__option.css");
 @import url("../blocks/slider/__option/_active/slider__option_active.css");
-@import url("../blocks/slider/__content/slider__content.css");
 
 /*---------added blocks 1, 46 and 54 by Artur Karamov, desktop version ----------- */
 @import url("../blocks/page-title/page-title.css");
@@ -358,6 +357,7 @@
 @import url("../blocks/intro/__subtitle/intro__subtitle.css");
 @import url("../blocks/intro/__subtitle/_mobile/intro__subtitle_mobile.css");
 @import url("../blocks/intro/__show-more/intro__show-more.css");
+@import url("../blocks/content/_none/content_none.css"); /*подключил еще раз, чтоб срабатывал, т.к. стили работают сверху вниз*/
 @import url("../blocks/intro/_color/_blue/intro_color_blue.css");
 @import url("../blocks/intro/_color/_grey/intro_color_grey.css");
 @import url("../blocks/intro/_color/_purple/intro_color_purple.css");

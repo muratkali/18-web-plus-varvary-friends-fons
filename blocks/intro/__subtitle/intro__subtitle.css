@@ -8,11 +8,7 @@
   font-style: normal;
   font-size: 18px;
   line-height: 29px;
-  overflow: hidden;
   width: 100%;
-  text-overflow: auto;
-  white-space: ;
-
 }
 
 .intro__subtitle:last-child {
@@ -23,11 +19,6 @@
   .intro__subtitle {
     line-height: 26px;
     color: #FFFFFF;
-    max-height: 208px;
-  }
-
-  .intro__subtitle:first-of-type::after {
-    content: "...";
   }
 }
 

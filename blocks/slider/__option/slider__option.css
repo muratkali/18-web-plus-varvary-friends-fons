@@ -8,3 +8,9 @@
   line-height: 50px;
   cursor: pointer;
 }
+
+@media screen and (max-width: 736px) {
+  .slider__option {
+    font-size: 18px;
+  }
+}
