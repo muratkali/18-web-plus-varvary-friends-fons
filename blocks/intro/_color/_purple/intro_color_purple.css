@@ -5,3 +5,11 @@
   background-repeat: no-repeat;
   color: #fff;
 }
+
+@media screen and (max-width: 400px) {
+  .intro_color_purple {
+    background-image: none;
+    padding: 40px 24px;
+
+  }
+}

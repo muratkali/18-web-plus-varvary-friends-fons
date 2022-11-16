@@ -2,3 +2,12 @@
   max-width: 647px;
   margin-bottom: 56px;
 }
+
+@media screen and (max-width: 400px) {
+  .intro__title {
+    margin-bottom: 24px;
+    font-size: 40px;
+    line-height: 44px;
+    color: #FFFFFF;
+  }
+}

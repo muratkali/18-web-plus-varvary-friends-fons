@@ -1,0 +1,16 @@
+.intro__show-more {
+  font-family: 'Berlin Type';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+  color: #FFFFFF;
+  display: none;
+  padding: 0;
+}
+
+@media screen and (max-width: 400px) {
+  .intro__show-more {
+    display: block;
+  }
+}

@@ -344,7 +344,7 @@
 @import url("../blocks/bankCard/__descriprtion/bankCard__description.css");
 @import url("../blocks/bankCard/__descriprtion/_visability/bankCard__description_visibility.css");
 
-/*---------slider by Artue Karamov ---------*/
+/*---------slider by Artur Karamov ---------*/
 @import url("../blocks/slider-section/slider-section.css");
 @import url("../blocks/slider/slider.css");
 @import url("../blocks/slider/__option/slider__option.css");
@@ -356,10 +356,15 @@
 @import url("../blocks/intro/intro.css");
 @import url("../blocks/intro/__title/intro__title.css");
 @import url("../blocks/intro/__subtitle/intro__subtitle.css");
+@import url("../blocks/intro/__subtitle/_mobile/intro__subtitle_mobile.css");
+@import url("../blocks/intro/__show-more/intro__show-more.css");
 @import url("../blocks/intro/_color/_blue/intro_color_blue.css");
 @import url("../blocks/intro/_color/_grey/intro_color_grey.css");
 @import url("../blocks/intro/_color/_purple/intro_color_purple.css");
 
+
+
 * {
   font-family: "Berlin Type", "Inter";
 }
+
