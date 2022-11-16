@@ -1,0 +1,7 @@
+.about-section__targets {
+  width: 100%;
+  max-width: 680px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}

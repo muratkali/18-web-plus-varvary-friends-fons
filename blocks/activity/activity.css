@@ -11,8 +11,8 @@
   gap: 32px;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 750px) {
   .activity {
-    padding: 56px 0;
+    padding: 56px 24px;
   }
 }
