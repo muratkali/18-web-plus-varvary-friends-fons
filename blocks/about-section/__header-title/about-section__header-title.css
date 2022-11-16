@@ -5,3 +5,9 @@
   line-height: 50px;
   text-align: center;
 }
+
+@media screen and (max-width: 500px) {
+  .about-section__header-title {
+    font-size: 32px;
+  }
+}
