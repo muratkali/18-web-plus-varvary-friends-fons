@@ -5,8 +5,8 @@
   list-style-image: url(../../images/Rectangle\ 506.png);
   display: flex;
   flex-direction: column;
+  gap: 12px;
   padding: 0;
   margin: 0;
-  gap: 12px;
   box-sizing: border-box;
 }
