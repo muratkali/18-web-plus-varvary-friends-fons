@@ -1,0 +1,16 @@
+.intro_color_grey {
+  background-color: #f8f8f8;
+  background-image: url("../../../../images/decorWhite.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #000;
+}
+
+@media screen and (max-width: 400px) {
+  .intro_color_grey {
+    background-image: url("../../../../images/about-fund-background_mobile.svg");
+    background-color: #77C5D5;
+    background-position: left;
+    background-repeat: repeat-y;
+  }
+}

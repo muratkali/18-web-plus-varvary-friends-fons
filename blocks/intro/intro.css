@@ -1,0 +1,23 @@
+.intro {
+  box-sizing: border-box;
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 56px;
+  padding-top: 48px;
+  padding-left: 124px;
+  padding-right: 24px;
+  padding-bottom: 80px;
+  font-family: "Berlin Type", "Inter", sans-serif;
+}
+
+@media screen and (max-width: 1080px) {
+  .intro {
+    margin-top: 56px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .intro {
+    padding: 41px 24px 49px 24px;
+  }
+}
