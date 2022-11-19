@@ -1,0 +1,5 @@
+@media screen and (max-width: 500px) {
+  .about-section__header-title_page_phylantrophy {
+    display: none;
+  }
+}

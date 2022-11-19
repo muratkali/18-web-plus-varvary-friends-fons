@@ -5,13 +5,18 @@
   line-height: 30px;
   position: relative;
   width: 100%;
-  padding-left: 18px;
+  list-style-type: square;
+  list-style-position: -18px;
 }
 
 @media screen and (max-width: 500px) {
   .listing__point {
     line-height: 26px;
-    padding-left: 8px;
-
+    list-style-position: -8px;
   }
+}
+
+.listing__point::marker {
+  color: rgba(119, 197, 213, 1);
+  font-size: 20px;
 }

@@ -1,13 +1,11 @@
 .listing__point_page_profteam {
-  font-family: "Berlin Type", "Inter", sans-serif;
   font-weight: 700;
   line-height: 26px;
+
 }
 
-/* @media screen and (max-width: 500px) {
-  .listing__point_page_profteam {
-    line-height: 26px;
-    padding-left: 8px;
+.listing__point_page_profteam::marker {
+  color: rgba(222, 111, 126, 1);
+  font-size: 20px;
+}
 
-  }
-} */

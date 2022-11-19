@@ -73,7 +73,7 @@
 @font-face {
   font-family: 'Berlin Type';
   font-style: normal;
-  font-weight: bold;
+  font-weight: 700;
   src: url('BerlinTypeWeb-Bold.eot') format('eot'),
   url('BerlinTypeWeb-Bold.woff') format('woff'),
   url('BerlinTypeWeb-Bold.woff2') format('woff2');

@@ -17,5 +17,7 @@
 @media screen and (max-width: 750px) {
   .about-section {
     padding: 56px 24px;
+    gap: 56px;
+    background-image: none;
   }
 }

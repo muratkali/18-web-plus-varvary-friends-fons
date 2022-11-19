@@ -381,3 +381,12 @@
 
 
 
+/* PHYLANTROPHY-SCHOOL-PAGE */
+/*------- by Alexander Markin------*/
+
+/* about-programm-section */
+@import url(../blocks/about-section/_page/about-section_page_phylanthropy.css);
+@import url(../blocks/about-section/__header-title/_page/about-section__header-title_page_phylantrophy.css);
+@import url(../blocks/about-section/__header-title/_hide/about-section__header-title_hide.css);
+@import url(../blocks/about-section/__header-title/_replacement/about-section__header-title_replacement.css);
+
