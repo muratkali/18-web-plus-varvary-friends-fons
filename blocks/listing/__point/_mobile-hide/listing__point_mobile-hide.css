@@ -1,0 +1,9 @@
+.listing__point_mobile-hide {
+  display: list-item;
+}
+
+@media screen and (max-width: 500px) {
+  .listing__point_mobile-hide {
+    display: none;
+  }
+}
