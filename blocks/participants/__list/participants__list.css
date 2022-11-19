@@ -1,0 +1,13 @@
+.participants__list {
+  margin: 0 0 0 194px ;
+  padding: 0;
+  display: flex;
+  gap: 65px;
+}
+
+@media screen and (max-width: 1279px) {
+  .participants__list{
+    margin: 0 auto;
+  }
+  
+}

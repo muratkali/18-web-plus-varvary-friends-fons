@@ -1,0 +1,21 @@
+.participants__dot {
+  margin: 0 12px 0 0;
+  padding: 0;
+  cursor: pointer;
+  height: 10px;
+  width: 10px;
+  background: #e0e0e0;
+  opacity: 0.4;
+  border-radius: 6px;
+  display: inline-block;
+  transition: background-color 0.3 ease;
+  list-style: none;
+}
+
+.participants__dot_active {
+  margin: 0 10px 0 0;
+  padding: 0;
+  background-color: #54a8b6;
+  width: 29px;
+  height: 10px;
+}

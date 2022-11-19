@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="pages/index.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <section class="participants">
+    <h2 class="participants__title">Участники программы</h2>
+    <ul class="participants__list"></ul>
+    <ul class="participants__dots">
+      <li class="participants__dot participants__dot_active"></li>
+      <li class="participants__dot"></li>
+      <li class="participants__dot"></li>
+    </ul>
+    <button class="participants__previous"></button>
+    <button class="participants__next"></button>
+  </section>
+
+  <section class="nco">
+    <h2 class="nco__title">Более 700 НКО уже с нами</h2>
+    <ul class="nco__container-list"></ul>
+    <button class="nco__button-previous"></button>
+    <button class="nco__button-next"></button>
+  </section>
+
+  <section class="partners">
+    <h2 class="partners__title">Наши партнёры</h2>
+    <ul class="partners__container-list"></ul>
+    <button class="partners__button-previous"></button>
+    <button class="partners__button-next"></button>
+  </section>
+
+  <section class="colleagues">
+    <h2 class="colleagues__title">Вместе с коллегами из индустрии мы:</h2>
+    <ul class="colleagues__list">
+      <li class="colleagues__item">
+        <p class="colleagues__item-paragraph">
+          Формируем инфраструктуру для решения социальных задач
+        </p>
+      </li>
+      <li class="colleagues__item">
+        <p class="colleagues__item-paragraph">
+          Инициируем диалог на социально значимые темы между НКО, бизнесом, <br> государством и обществом
+        </p>
+      </li>
+      <li class="colleagues__item">
+        <p class="colleagues__item-paragraph">
+          Реализуем системные проекты вместе с НКО и их контрагентами
+        </p>
+      </li>
+      <li class="colleagues__item">
+        <p class="colleagues__item-paragraph">
+          Создаем профессиональное сообщество и площадки для обмена опытом и <br> кооперации в благотворительности
+        </p>
+      </li>
+      <li class="colleagues__item">
+        <p class="colleagues__item-paragraph">
+          Вдохновляем наших друзей — НКО, студентов, экспертов и партнеров — выходить за рамки привычного и менять мир
+          через личную трансформацию
+        </p>
+      </li>
+    </ul>
+  </section>
+
+  <template id="participantsTemplate">
+    <li class="participants__item fade">
+      <div class="participants__wrapper">
+        <img class="participants__image" src="" alt="Логотип фонда участника программы">
+        <div class="participants__dscr-btn">
+          <p class="participants__description"></p>
+          <a class="participants__fond-link" href=""><button class="participants__fond-link-button">
+              <p class="participants__fond-button-name">Перейти на сайт фонда</p>
+            </button>
+          </a>
+        </div>
+      </div>
+
+    </li>
+  </template>
+
+  <template id="ncoTemplate">
+    <li class="nco__container-item">
+      <div class="nco__container-element">
+        <img class="nco__container-image" src="" alt="">
+      </div>
+    </li>
+  </template>
+
+  <template id="partnersTemplate">
+    <li class="partners__container-item">
+        <img class="partners__container-image" src="" alt="">
+    </li>
+  </template>
+
+  <script type="module" src="./scripts/index.js"></script>
+</body>
+
+</html>

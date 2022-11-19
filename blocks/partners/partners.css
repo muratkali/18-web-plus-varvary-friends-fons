@@ -1,0 +1,19 @@
+.partners {
+  margin: 0 auto 23px;
+  padding: 0;
+  max-width: 1032px;
+  max-height: 196px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  overflow: hidden;
+  position: relative;
+  transform: translateX(5px);
+}
+
+@media screen and (max-width: 1080px) {
+  .partners {
+    display: none;
+  }
+}

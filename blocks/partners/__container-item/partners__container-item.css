@@ -1,0 +1,10 @@
+.partners__container-item {
+  margin: 0;
+  padding: 0;
+  width: 124px;
+  height: 124px;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
