@@ -1,0 +1,23 @@
+.about-section {
+  width: 100%;
+  font-family: "Berlin Type", "Inter", sans-serif;
+  max-width: 1280px;
+  position: relative;
+  background-color: #fff;
+  box-sizing: border-box;
+  padding: 98px 0 96px 0;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 72px;
+  background-image: url(../../images/about-section_background.png);
+}
+
+@media screen and (max-width: 750px) {
+  .about-section {
+    padding: 56px 24px;
+    gap: 56px;
+    background-image: none;
+  }
+}
