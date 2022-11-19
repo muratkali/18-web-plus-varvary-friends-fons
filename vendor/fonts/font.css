@@ -77,4 +77,21 @@
   src: url('roboto-regular.ttf') format('ttf');
 }
 
+/* Berlin Type */
+@font-face {
+  font-family: 'Berlin Type';
+  font-style: normal;
+  font-weight: 400;
+  src: url('BerlinTypeWeb-Regular.eot') format('eot'),
+  url('BerlinTypeWeb-Regular.woff') format('woff'),
+  url('BerlinTypeWeb-Regular.woff2') format('woff2');
+}
 
+@font-face {
+  font-family: 'Berlin Type';
+  font-style: normal;
+  font-weight: 700;
+  src: url('BerlinTypeWeb-Bold.eot') format('eot'),
+  url('BerlinTypeWeb-Bold.woff') format('woff'),
+  url('BerlinTypeWeb-Bold.woff2') format('woff2');
+}

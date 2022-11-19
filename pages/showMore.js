@@ -5,7 +5,12 @@ const hiddenParagraphs = document.querySelectorAll('.intro__subtitle_mobile');
 
 const showParagraph = (p) => {p.classList.remove('intro__subtitle_mobile')};
 const hideButton = (button) => {button.classList.add('content_none')};
-const addDots = () => {if (window.screen.width <= 400 && !showMoreButton.classList.contains('content_none')) {shownTextNode.textContent = shownText + '...'}};
+const addDots = () => {
+  if (window.screen.width <= 400 && !showMoreButton.classList.contains('content_none')) {
+    shownTextNode.textContent = shownText + '...'}
+  else {
+    shownTextNode.textContent = shownText;
+  }};
 
 addDots();
 

@@ -1,0 +1,11 @@
+.listing__point_page_profteam {
+  font-weight: 700;
+  line-height: 26px;
+
+}
+
+.listing__point_page_profteam::marker {
+  color: rgba(222, 111, 126, 1);
+  font-size: 20px;
+}
+

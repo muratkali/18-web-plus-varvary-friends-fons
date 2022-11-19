@@ -2,7 +2,6 @@
   background-color: #f8f8f8;
   background-image: url("../../../../images/decorWhite.svg");
   background-size: cover;
-  background-position: bottom center;
   background-repeat: no-repeat;
   color: #000;
 }
@@ -14,5 +13,4 @@
     background-position: left;
     background-repeat: repeat-y;
   }
-
 }

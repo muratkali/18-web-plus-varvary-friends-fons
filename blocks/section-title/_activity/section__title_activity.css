@@ -1,0 +1,13 @@
+.section__title_activity {
+  font-family: "Berlin Type", "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 50px;
+}
+
+@media screen and (max-width: 500px) {
+  .section__title_activity {
+    font-size: 32px;
+  }
+}

@@ -13,4 +13,10 @@
   .slider__option {
     font-size: 18px;
   }
+  .slider__option:first-of-type {
+    margin-left: 24px;
+  }
+  .slider__option:last-of-type {
+    margin-right: 24px;
+  }
 }
