@@ -8,20 +8,31 @@
   <script src="./pages/index.js" defer></script>
   <script src="./pages/radioButtonStyle.js" defer></script>
   <script src="./vendor/slider/slider.js" defer></script>
+  <script src="./scripts/tabPanel.js" defer></script>
   <meta name="description" content="Документы">
   <meta name="keywords" content="помощь людям, НКО, благотворительные организации, документы">
 </head>
 <body class="page">
   <header class="header">
-    
+
   </header>
   <main class="main">
-
+    <h1 class="page-title">Документы</h1>
+    <section class="tab-panel-section">
+      <div class="tab-panel">
+        <button data-js="tab" class="tab-panel__option tab-panel__option_active">Основные</button>
+        <button data-js="tab" class="tab-panel__option">Образовательной организации</button>
+      </div>
+    </section>
+    <section class="">
+      <div data-js="tab-content"></div>
+      <div data-js="tab-content" class="content_none"></div>
+    </section>
   </main>
 
   <footer class="footer">
 
   </footer>
-  
+
 </body>
 </html>

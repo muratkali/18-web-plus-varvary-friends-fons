@@ -1,0 +1,21 @@
+.tab-panel {
+  display: flex;
+  gap: 40px;
+  white-space: nowrap;
+  overflow: auto;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  margin-left: 124px;
+}
+
+.tab-panel::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+}
+
+@media screen and (max-width: 736px) {
+  .tab-panel {
+    gap: 16px;
+    margin-left: 0;
+  }
+}
