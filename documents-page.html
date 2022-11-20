@@ -8,7 +8,7 @@
   <script src="./pages/index.js" defer></script>
   <script src="./pages/radioButtonStyle.js" defer></script>
   <script src="./vendor/slider/slider.js" defer></script>
-  <script src="./scripts/simpleSlider.js" defer></script>
+  <script src="./scripts/tabPanel.js" defer></script>
   <meta name="description" content="Документы">
   <meta name="keywords" content="помощь людям, НКО, благотворительные организации, документы">
 </head>
@@ -18,15 +18,15 @@
   </header>
   <main class="main">
     <h1 class="page-title">Документы</h1>
-    <section class="slider-section">
-      <div class="slider">
-        <button data-js="slider-option" class="slider__option slider__option_active">Основные</button>
-        <button data-js="slider-option" class="slider__option">Образовательной организации</button>
+    <section class="tab-panel-section">
+      <div class="tab-panel">
+        <button data-js="tab" class="tab-panel__option tab-panel__option_active">Основные</button>
+        <button data-js="tab" class="tab-panel__option">Образовательной организации</button>
       </div>
     </section>
     <section class="">
-      <div data-js="slider-content"></div>
-      <div data-js="slider-content" class="content_none"></div>
+      <div data-js="tab-content"></div>
+      <div data-js="tab-content" class="content_none"></div>
     </section>
   </main>
 

@@ -345,10 +345,10 @@
 @import url("../blocks/bankCard/__descriprtion/_visability/bankCard__description_visibility.css");
 
 /*---------slider by Artur Karamov ---------*/
-@import url("../blocks/slider-section/slider-section.css");
-@import url("../blocks/slider/slider.css");
-@import url("../blocks/slider/__option/slider__option.css");
-@import url("../blocks/slider/__option/_active/slider__option_active.css");
+@import url("../blocks/tab-panel-section/tab-panel-section.css");
+@import url("../blocks/tab-panel/tab-panel.css");
+@import url("../blocks/tab-panel/__option/tab-panel__option.css");
+@import url("../blocks/tab-panel/__option/_active/tab-panel__option_active.css");
 
 /*---------added blocks 1, 46 and 54 by Artur Karamov, desktop version ----------- */
 @import url("../blocks/page-title/page-title.css");
