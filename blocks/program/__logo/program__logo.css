@@ -1,0 +1,8 @@
+.program__logo {
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  min-width: 17px;
+  min-height: 17px;
+}

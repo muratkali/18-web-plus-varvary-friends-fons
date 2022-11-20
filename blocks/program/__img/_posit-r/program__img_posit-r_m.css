@@ -1,0 +1,4 @@
+.program__img_posit-r_m {
+  object-position: clamp(5.3125rem, 31.0938rem + -32.2266vw, 15.625rem);
+  /* 1280/768 85/250 */
+}

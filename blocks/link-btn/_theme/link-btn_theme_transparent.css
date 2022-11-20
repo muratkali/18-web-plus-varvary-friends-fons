@@ -1,0 +1,11 @@
+.link-btn_theme_transparent {
+  font-weight: 700;
+  background-color: rgba(255, 255, 255, 0.1);
+  color: #fff;
+}
+
+.link-btn_theme_transparent:hover {
+  background-color: #fff;
+  color: #000;
+  opacity: 1;
+}
