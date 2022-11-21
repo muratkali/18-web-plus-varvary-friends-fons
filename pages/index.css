@@ -448,3 +448,239 @@
 
 
 
+
+
+
+/* -----------oleg Typushtanov ----------------> */
+/* Baners ProCharity MSK Profesional popup*/
+
+@import url("../blocks/link-btn/link-btn.css");
+
+@import url("../blocks/link-btn/__icon/link-btn__icon.css");
+
+@import url("../blocks/link-btn/_theme/link-btn_theme_transparent.css");
+@import url("../blocks/link-btn/_theme/link-btn_theme_invers-transparent.css");
+@import url("../blocks/link-btn/_theme/link-btn_theme_white.css");
+
+@import url("../blocks/link-btn/_size/link-btn_size_s.css");
+@import url("../blocks/link-btn/_size/link-btn_size_m.css");
+
+@import url("../blocks/link-btn/_size-invers/link-btn_size-invers_m.css");
+
+/* ---------------------------- */
+
+@import url("../blocks/uniblock/uniblock.css");
+
+/*  */
+@import url("../blocks/program/program.css");
+
+@import url("../blocks/program/_horizon-indent_m/program_horizon-indent_s.css");
+@import url("../blocks/program/_horizon-indent_m/program_horizon-indent_m.css");
+@import url("../blocks/program/_horizon-indent_m/program_horizon-indent_l.css");
+
+@import url("../blocks/program/_justify/program_justify_start.css");
+@import url("../blocks/program/_justify/program_justify_end.css");
+
+@import url("../blocks/program/_size/program_size_s.css");
+@import url("../blocks/program/_size/program_size_m.css");
+@import url("../blocks/program/_size/program_size_l.css");
+
+@import url("../blocks/program/_style/program_style_aqua.css");
+@import url("../blocks/program/_style/program_style_royal-blue.css");
+@import url("../blocks/program/_style/program_style_indian-red.css");
+
+@import url("../blocks/program/_indent/program_indent_s.css");
+@import url("../blocks/program/_indent/program_indent_m.css");
+@import url("../blocks/program/_indent/program_indent_l.css");
+/*  */
+@import url("../blocks/program/__parallax-img/program__parallax-img.css");
+/*  */
+@import url("../blocks/program/__item-content/program__item-content.css");
+
+@import url("../blocks/program/__item-content/_size/program__item-content_size_s.css");
+@import url("../blocks/program/__item-content/_size/program__item-content_size_m.css");
+
+/*  */
+@import url("../blocks/program/__logo-box/program__logo-box.css");
+/*  */
+@import url("../blocks/program/__logo/program__logo.css");
+
+@import url("../blocks/program/__logo/_procharity-size/program__logo_procharity-size_s.css");
+@import url("../blocks/program/__logo/_procharity-size/program__logo_procharity-size_m.css");
+@import url("../blocks/program/__logo/_procharity-size/program__logo_procharity-size_l.css");
+
+@import url("../blocks/program/__logo/_msk-size/program__logo_msk-size_s.css");
+@import url("../blocks/program/__logo/_msk-size/program__logo_msk-size_m.css");
+
+@import url("../blocks/program/__logo/_prof-size/program__logo_prof-size_s.css");
+@import url("../blocks/program/__logo/_prof-size/program__logo_prof-size_m.css");
+
+@import url("../blocks/program/__logo/_community/program__logo_community_procharity.css");
+@import url("../blocks/program/__logo/_community/program__logo_community_msk.css");
+@import url("../blocks/program/__logo/_community/program__logo_community_prof.css");
+/*  */
+@import url("../blocks/program/__logo-text/program__logo-text.css");
+/*  */
+@import url("../blocks/program/__title/program__title.css");
+
+@import url("../blocks/program/__title/_indent/program__title_indent_s.css");
+@import url("../blocks/program/__title/_indent/program__title_indent_m.css");
+@import url("../blocks/program/__title/_indent/program__title_indent_l.css");
+
+@import url("../blocks/program/__title/_size/program__title_size_s.css");
+@import url("../blocks/program/__title/_size/program__title_size_m.css");
+@import url("../blocks/program/__title/_size/program__title_size_l.css");
+/*  */
+@import url("../blocks/program/__subtitle/program__subtitle.css");
+
+@import url("../blocks/program/__subtitle/_visibility/program__subtitle_visibility.css");
+/*  */
+@import url("../blocks/program/__box-background/program__box-background.css");
+
+@import url("../blocks/program/__box-background/_position/program__box-background_position_right.css");
+@import url("../blocks/program/__box-background/_position/program__box-background_position_left.css");
+
+/*  */
+@import url("../blocks/program/__img/program__img.css");
+
+@import url("../blocks/program/__img/_posit-r/program__img_posit-r_s.css");
+@import url("../blocks/program/__img/_posit-r/program__img_posit-r_m.css");
+@import url("../blocks/program/__img/_posit-l/program__img_posit-l_s.css");
+/*  */
+@import url("../blocks/program/__subtitle/_indent/program__subtitle_indent_m.css");
+@import url("../blocks/program/__subtitle/_indent/program__subtitle_indent_l.css");
+/*  */
+@import url("../blocks/program/__btn-play/program__btn-play.css");
+
+/* ---------------------------- */
+
+@import url("../blocks/popup/popup.css");
+
+@import url("../blocks/popup/__video/popup__video.css");
+@import url("../blocks/popup/__iframe/popup__iframe.css");
+@import url("../blocks/popup/__btn-play/popup__btn-play.css");
+@import url("../blocks/popup/__btn-leave/popup__btn-leave.css");
+@import url("../blocks/popup/__img-keeper/popup__img-keeper.css");
+
+@import url("../blocks/popup/_opened/popup_opened.css");
+@import url("../blocks/popup/_visibility/Popup_visibility.css");
+
+/* <-----------oleg Typushtanov baners---------------- */
+
+
+
+/* -----------oleg Typushtanov ----------------> */
+/* Baners ProCharity MSK Profesional popup*/
+
+@import url("../blocks/link-btn/link-btn.css");
+
+@import url("../blocks/link-btn/__icon/link-btn__icon.css");
+
+@import url("../blocks/link-btn/_theme/link-btn_theme_transparent.css");
+@import url("../blocks/link-btn/_theme/link-btn_theme_invers-transparent.css");
+@import url("../blocks/link-btn/_theme/link-btn_theme_white.css");
+
+@import url("../blocks/link-btn/_size/link-btn_size_s.css");
+@import url("../blocks/link-btn/_size/link-btn_size_m.css");
+
+@import url("../blocks/link-btn/_size-invers/link-btn_size-invers_m.css");
+
+/* ---------------------------- */
+
+@import url("../blocks/uniblock/uniblock.css");
+
+/*  */
+@import url("../blocks/program/program.css");
+
+@import url("../blocks/program/_horizon-indent_m/program_horizon-indent_s.css");
+@import url("../blocks/program/_horizon-indent_m/program_horizon-indent_m.css");
+@import url("../blocks/program/_horizon-indent_m/program_horizon-indent_l.css");
+
+@import url("../blocks/program/_justify/program_justify_start.css");
+@import url("../blocks/program/_justify/program_justify_end.css");
+
+@import url("../blocks/program/_size/program_size_s.css");
+@import url("../blocks/program/_size/program_size_m.css");
+@import url("../blocks/program/_size/program_size_l.css");
+
+@import url("../blocks/program/_style/program_style_aqua.css");
+@import url("../blocks/program/_style/program_style_royal-blue.css");
+@import url("../blocks/program/_style/program_style_indian-red.css");
+
+@import url("../blocks/program/_indent/program_indent_s.css");
+@import url("../blocks/program/_indent/program_indent_m.css");
+@import url("../blocks/program/_indent/program_indent_l.css");
+/*  */
+@import url("../blocks/program/__parallax-img/program__parallax-img.css");
+/*  */
+@import url("../blocks/program/__item-content/program__item-content.css");
+
+@import url("../blocks/program/__item-content/_size/program__item-content_size_s.css");
+@import url("../blocks/program/__item-content/_size/program__item-content_size_m.css");
+
+/*  */
+@import url("../blocks/program/__logo-box/program__logo-box.css");
+/*  */
+@import url("../blocks/program/__logo/program__logo.css");
+
+@import url("../blocks/program/__logo/_procharity-size/program__logo_procharity-size_s.css");
+@import url("../blocks/program/__logo/_procharity-size/program__logo_procharity-size_m.css");
+@import url("../blocks/program/__logo/_procharity-size/program__logo_procharity-size_l.css");
+
+@import url("../blocks/program/__logo/_msk-size/program__logo_msk-size_s.css");
+@import url("../blocks/program/__logo/_msk-size/program__logo_msk-size_m.css");
+
+@import url("../blocks/program/__logo/_prof-size/program__logo_prof-size_s.css");
+@import url("../blocks/program/__logo/_prof-size/program__logo_prof-size_m.css");
+
+@import url("../blocks/program/__logo/_community/program__logo_community_procharity.css");
+@import url("../blocks/program/__logo/_community/program__logo_community_msk.css");
+@import url("../blocks/program/__logo/_community/program__logo_community_prof.css");
+/*  */
+@import url("../blocks/program/__logo-text/program__logo-text.css");
+/*  */
+@import url("../blocks/program/__title/program__title.css");
+
+@import url("../blocks/program/__title/_indent/program__title_indent_s.css");
+@import url("../blocks/program/__title/_indent/program__title_indent_m.css");
+@import url("../blocks/program/__title/_indent/program__title_indent_l.css");
+
+@import url("../blocks/program/__title/_size/program__title_size_s.css");
+@import url("../blocks/program/__title/_size/program__title_size_m.css");
+@import url("../blocks/program/__title/_size/program__title_size_l.css");
+/*  */
+@import url("../blocks/program/__subtitle/program__subtitle.css");
+
+@import url("../blocks/program/__subtitle/_visibility/program__subtitle_visibility.css");
+/*  */
+@import url("../blocks/program/__box-background/program__box-background.css");
+
+@import url("../blocks/program/__box-background/_position/program__box-background_position_right.css");
+@import url("../blocks/program/__box-background/_position/program__box-background_position_left.css");
+
+/*  */
+@import url("../blocks/program/__img/program__img.css");
+
+@import url("../blocks/program/__img/_posit-r/program__img_posit-r_s.css");
+@import url("../blocks/program/__img/_posit-r/program__img_posit-r_m.css");
+@import url("../blocks/program/__img/_posit-l/program__img_posit-l_s.css");
+/*  */
+@import url("../blocks/program/__subtitle/_indent/program__subtitle_indent_m.css");
+@import url("../blocks/program/__subtitle/_indent/program__subtitle_indent_l.css");
+/*  */
+@import url("../blocks/program/__btn-play/program__btn-play.css");
+
+/* ---------------------------- */
+
+@import url("../blocks/popup/popup.css");
+
+@import url("../blocks/popup/__video/popup__video.css");
+@import url("../blocks/popup/__iframe/popup__iframe.css");
+@import url("../blocks/popup/__btn-play/popup__btn-play.css");
+@import url("../blocks/popup/__btn-leave/popup__btn-leave.css");
+@import url("../blocks/popup/__img-keeper/popup__img-keeper.css");
+
+@import url("../blocks/popup/_opened/popup_opened.css");
+@import url("../blocks/popup/_visibility/Popup_visibility.css");
+
+/* <-----------oleg Typushtanov baners---------------- */

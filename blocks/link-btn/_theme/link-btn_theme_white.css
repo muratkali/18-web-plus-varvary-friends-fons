@@ -1,0 +1,10 @@
+.link-btn_theme_white {
+  font-weight: 700;
+  background-color: white;
+  color: #000;
+}
+
+.link-btn_theme_white:hover {
+  background-color: #f0f0f0;
+  opacity: 1;
+}

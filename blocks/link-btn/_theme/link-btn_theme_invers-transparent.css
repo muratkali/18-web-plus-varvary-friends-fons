@@ -1,0 +1,21 @@
+.link-btn_theme_invers-transparent {
+  color: #fff;
+}
+
+.link-btn_theme_invers-transparent:hover {
+  opacity: .6;
+}
+
+@media screen and (max-width: 767px) {
+  .link-btn_theme_invers-transparent {
+  font-weight: 700;
+  background-color: rgba(255, 255, 255, 0.1);
+  color: #fff;
+}
+
+.link-btn_theme_invers-transparent:hover {
+  background-color: #fff;
+  color: #000;
+  opacity: 1;
+}
+}
