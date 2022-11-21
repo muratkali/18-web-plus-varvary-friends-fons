@@ -1,0 +1,11 @@
+.program__logo_msk-size_s {
+  width: 34px;
+  height: 30px;
+}
+
+@media (max-width: 375px) {
+  .program__logo_msk-size_s {
+    width: 23px;
+    height: 20px;
+  }
+}
