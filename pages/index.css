@@ -427,4 +427,24 @@
 /* business-section */
 @import url(../blocks/listing/_page/listing_page_business.css);
 
+/* PHILANTROPHY-SCHOOL-PAGE */
+/*------- by Ali Muratkali ------*/
+
+@import url(../blocks/listing/_page/listing_page_philantropy.css);
+
+
+/* PROF-PAGE */
+/*------- by Ali Muratkali ------*/
+
+/* gallery-section */
+@import url(../blocks/gallery/gallery.css);
+@import url(../blocks/gallery/__button/gallery__button.css);
+@import url(../blocks/gallery/__slider/gallery__slider.css);
+@import url(../blocks/gallery/__item/gallery__item.css);
+@import url(../blocks/gallery/__button/_type/gallery__button_type_next.css);
+@import url(../blocks/gallery/__button/_type/gallery__button_type_previous.css);
+
+
+
+
 
