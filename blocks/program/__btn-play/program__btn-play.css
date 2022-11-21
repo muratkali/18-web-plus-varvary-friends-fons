@@ -4,10 +4,11 @@
   right: clamp(10.938rem, -7.813rem + 39.063vw, 23.438rem);
   bottom: 48%;
   background-image: url('../../../images/icon_play.svg');
-  background-color: rgba(255, 255, 255, 0.003);
+  background-color: rgba(255, 255, 255, 0);
   background-position: top;
   background-repeat: no-repeat;
   background-size: contain;
+  filter: drop-shadow(0px 8px 16px rgba(0, 0, 0, 0.16));
   width: 48px;
   height: 48px;
   border: none;
@@ -33,11 +34,12 @@
     width: 56px;
     height: 56px;
     margin-top: 26px;
+    filter: none;
   }
 
   .program__btn-play::after {
     content: 'Посмотреть видео';
-    font-family: "Inter", Arial, sans-serif;
+    font-family: 'Berlin Type', 'Inter', sans-serif;
     font-weight: 400;
     font-size: 18px;
     line-height: 1.44;

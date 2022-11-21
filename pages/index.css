@@ -420,10 +420,13 @@
 @import url("../blocks/link-btn/__icon/link-btn__icon.css");
 
 @import url("../blocks/link-btn/_theme/link-btn_theme_transparent.css");
+@import url("../blocks/link-btn/_theme/link-btn_theme_invers-transparent.css");
 @import url("../blocks/link-btn/_theme/link-btn_theme_white.css");
 
 @import url("../blocks/link-btn/_size/link-btn_size_s.css");
 @import url("../blocks/link-btn/_size/link-btn_size_m.css");
+
+@import url("../blocks/link-btn/_size-invers/link-btn_size-invers_m.css");
 
 /* ---------------------------- */
 
@@ -450,6 +453,8 @@
 @import url("../blocks/program/_indent/program_indent_s.css");
 @import url("../blocks/program/_indent/program_indent_m.css");
 @import url("../blocks/program/_indent/program_indent_l.css");
+/*  */
+@import url("../blocks/program/__parallax-img/program__parallax-img.css");
 /*  */
 @import url("../blocks/program/__item-content/program__item-content.css");
 
@@ -495,6 +500,7 @@
 
 @import url("../blocks/program/__box-background/_position/program__box-background_position_right.css");
 @import url("../blocks/program/__box-background/_position/program__box-background_position_left.css");
+
 /*  */
 @import url("../blocks/program/__img/program__img.css");
 
