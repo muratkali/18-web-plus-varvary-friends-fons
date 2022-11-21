@@ -1,0 +1,14 @@
+.sponsors {
+  width: 100%;
+  background-color: #1F3B5F;
+  color: white;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas:
+    "header text"
+    "header button"
+    "slider slider";
+  column-gap: 40px;
+  margin: 0;
+  padding: 56px 60px 0;
+}

@@ -1,0 +1,8 @@
+.spovsors__photos {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  top: 48px;
+  grid-area: slider;
+}
