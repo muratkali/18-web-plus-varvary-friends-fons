@@ -1,0 +1,29 @@
+.projects__card {
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  margin: 0;
+  padding: 123px 123px 0;
+  aspect-ratio: 1279/626;
+  color: white;
+}
+
+.projects__card1 {
+  background-image: url(../../../images/projects-slide-1.png);
+}
+
+.projects__card2 {
+  background-image: url(../../../images/projects-slide-2.png);
+}
+
+.projects__card3 {
+  background-image: url(../../../images/projects-slide-3.png);
+}
+
+.projects__card4 {
+  background-image: url(../../../images/projects-slide-4.png);
+}
+
+.projects__card5 {
+  background-image: url(../../../images/projects-slide-5.png);
+}
