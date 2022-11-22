@@ -1,0 +1,4 @@
+.program_horizon-indent_m {
+  padding-left: clamp(1.5rem, -7.875rem + 19.531vw, 7.75rem);
+  padding-right: clamp(1.5rem, -7.875rem + 19.531vw, 7.75rem);
+}
