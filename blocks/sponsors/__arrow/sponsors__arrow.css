@@ -11,3 +11,12 @@
 .sponsors__arrow_inactive {
   opacity: 16%;
 }
+
+@media (max-width: 700px) {
+  .sponsors__arrow {
+    position: absolute;
+  }
+  .sponsors__arrow_right {
+    right: 0;
+  }
+}

@@ -12,3 +12,12 @@
   margin: 0;
   padding: 56px 60px 0;
 }
+
+@media (max-width: 700px) {
+  .sponsors {
+    position: relative;
+    padding: 57px 24px 0;
+    display: flex;
+    flex-direction: column;
+  }
+}
