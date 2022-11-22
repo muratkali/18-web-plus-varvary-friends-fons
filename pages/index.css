@@ -429,7 +429,7 @@
 
 /* PHILANTROPHY-SCHOOL-PAGE */
 /*------- by Ali Muratkali ------*/
-
+@import url(../blocks/activity/_page/activity_page_philantropy.css);
 @import url(../blocks/listing/_page/listing_page_philantropy.css);
 @import url(../blocks/link-btn/_size/link-btn_size_l.css);
 @import url(../blocks/link-btn/_theme/link-btn_theme_gray.css);
