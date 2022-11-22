@@ -6,3 +6,10 @@
   top: 48px;
   grid-area: slider;
 }
+
+.sponsors__photo {
+  display: none;
+}
+.sponsors__photo_active {
+  display: inline;
+}
