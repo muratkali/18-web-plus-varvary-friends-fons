@@ -1,9 +1,0 @@
-.program_size_l {
-  min-height: 512px;
-}
-
-@media (max-width: 375px) {
-  .program_size_l {
-    min-height: 486px;
-  }
-}

@@ -1,9 +1,0 @@
-.program__subtitle_indent_l {
-  padding-bottom: 56px;
-}
-
-@media (max-width: 375px) {
-  .program__subtitle_indent_l {
-    padding-bottom: 40px;
-  }
-}
