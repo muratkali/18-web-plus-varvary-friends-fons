@@ -6,24 +6,35 @@
   padding: 123px 123px 0;
   aspect-ratio: 1279/626;
   color: white;
+  display: none;
 }
 
-.projects__card1 {
-  background-image: url(../../../images/projects-slide-1.png);
+.projects__card_show {
+  display: block;
 }
 
-.projects__card2 {
-  background-image: url(../../../images/projects-slide-2.png);
+.projects__card_1 {
+  background-image: linear-gradient(8deg, #0006, #0006), url(../../../images/projects-slide-1.png);
 }
 
-.projects__card3 {
-  background-image: url(../../../images/projects-slide-3.png);
+.projects__card_2 {
+  background-image: linear-gradient(8deg, #0006, #0006), url(../../../images/projects-slide-2.png);
 }
 
-.projects__card4 {
-  background-image: url(../../../images/projects-slide-4.png);
+.projects__card_3 {
+  background-image: linear-gradient(8deg, #0006, #0006), url(../../../images/projects-slide-3.png);
 }
 
-.projects__card5 {
-  background-image: url(../../../images/projects-slide-5.png);
+.projects__card_4 {
+  background-image: linear-gradient(8deg, #0006, #0006), url(../../../images/projects-slide-4.png);
+}
+
+.projects__card_5 {
+  background-image: linear-gradient(8deg, #0006, #0006), url(../../../images/projects-slide-5.png);
+}
+
+@media (max-width: 700px) {
+  .projects__card {
+    padding: 40px 20px;
+  }
 }

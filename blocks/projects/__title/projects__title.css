@@ -16,3 +16,14 @@
   letter-spacing: 0em;
   text-align: left;
 }
+
+@media (max-width: 650px) {
+  .projects__title {
+    font-size: 27px;
+    line-height: 36px;
+  }
+  .projects__title_span {
+    font-size: 27px;
+    line-height: 36px;
+  }
+}
