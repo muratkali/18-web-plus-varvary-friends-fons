@@ -1,0 +1,10 @@
+.link-btn_size-invers_m {
+  padding: 0;
+}
+
+@media screen and (max-width: 767px) {
+  .link-btn_size-invers_m {
+    border-radius: 56px;
+    padding: 18px 52px;
+  }
+}

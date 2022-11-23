@@ -1,0 +1,9 @@
+.program__subtitle_visibility {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .program__subtitle_visibility {
+    display: block;
+  }
+}

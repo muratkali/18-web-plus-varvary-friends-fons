@@ -1,0 +1,11 @@
+.program__title_size_l {
+  font-size: 48px;
+  line-height: 1;
+}
+
+@media (max-width: 768px) {
+  .program__title_size_l {
+    font-size: 34px;
+    line-height: 1.1;
+  }
+}

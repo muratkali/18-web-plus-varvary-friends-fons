@@ -1,0 +1,15 @@
+.program__item-content_size_m {
+  max-width: 460px;
+}
+
+@media (max-width: 1024px) {
+  .program__item-content_size_m {
+    max-width: 400px;
+  }
+}
+
+@media (max-width: 768px) {
+  .program__item-content_size_m {
+    max-width: 327px;
+  }
+}
