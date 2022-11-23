@@ -443,6 +443,12 @@
 @import url(../blocks/link-btn/_theme/link-btn_theme_gray.css);
 
 
+@import url(../blocks/sponsors/sponsors.css);
+@import url(../blocks/sponsors/__header/sponsors__header.css);
+@import url(../blocks/sponsors/__photos/sponsors__photos.css);
+@import url(../blocks/sponsors/__button/sponsors__button.css);
+@import url(../blocks/sponsors/__arrow/sponsors__arrow.css);
+
 /* PROF-PAGE */
 /*------- by Ali Muratkali ------*/
 
@@ -453,13 +459,6 @@
 @import url(../blocks/gallery/__item/gallery__item.css);
 @import url(../blocks/gallery/__button/_type/gallery__button_type_next.css);
 @import url(../blocks/gallery/__button/_type/gallery__button_type_previous.css);
-
-
-
-
-
-
-
 
 /* -----------oleg Typushtanov ----------------> */
 /* Baners ProCharity MSK Profesional popup*/
@@ -705,3 +704,4 @@
 @import url("../blocks/projects/__title/projects__title.css");
 @import url("../blocks/projects/__text/projects__text.css");
 @import url("../blocks/projects/__header/projects__header.css");
+@import url("../blocks/projects/__indicator/projects__indicator.css");
