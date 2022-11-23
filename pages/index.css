@@ -409,6 +409,13 @@
 @import url(../blocks/about-section/__header-title/_hide/about-section__header-title_hide.css);
 @import url(../blocks/about-section/__header-title/_replacement/about-section__header-title_replacement.css);
 
+block_club_MShPF
+@import url(../blocks/sponsors/sponsors.css);
+@import url(../blocks/sponsors/__header/sponsors__header.css);
+@import url(../blocks/sponsors/__photos/sponsors__photos.css);
+@import url(../blocks/sponsors/__button/sponsors__button.css);
+@import url(../blocks/sponsors/__arrow/sponsors__arrow.css);
+
 /* PROF-TEAM-PAGE */
 /*------- by Alexander Markin------*/
 
@@ -686,3 +693,4 @@
 @import url("../blocks/popup/_visibility/Popup_visibility.css");
 
 /* <-----------oleg Typushtanov baners---------------- */
+
