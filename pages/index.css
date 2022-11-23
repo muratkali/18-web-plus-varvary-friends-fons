@@ -409,8 +409,10 @@
 @import url(../blocks/about-section/__header-title/_hide/about-section__header-title_hide.css);
 @import url(../blocks/about-section/__header-title/_replacement/about-section__header-title_replacement.css);
 
-/* block_club_MShPF */
+
+/*block_club_MShPF*/
 /*-------by Polina Rubacova---------*/
+
 @import url(../blocks/sponsors/sponsors.css);
 @import url(../blocks/sponsors/__header/sponsors__header.css);
 @import url(../blocks/sponsors/__photos/sponsors__photos.css);
