@@ -1,0 +1,9 @@
+.colleagues__item {
+  margin: 0;
+  padding: 0;
+  list-style-type: square;
+}
+
+.colleagues__item::marker{
+  color: #54A8B6;
+}

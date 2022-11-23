@@ -1,0 +1,25 @@
+@font-face {
+    font-family: 'Berlin Type';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/berlin-type/BerlinTypeWeb-Regular.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('../fonts/berlin-type/BerlinTypeWeb-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/berlin-type/BerlinTypeWeb-Regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/berlin-type/BerlinTypeWeb-Regular.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/berlin-type/BerlinTypeWeb-Regular.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/berlin-type/BerlinTypeWeb-Regular.svg#Inter') format('svg'); /* Legacy iOS */
+  }
+  
+  @font-face {
+    font-family: 'Berlin Type';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/berlin-type/BerlinTypeWeb-Bold.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('../fonts/berlin-type/BerlinTypeWeb-Bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/berlin-type/BerlinTypeWeb-Bold.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/berlin-type/BerlinTypeWeb-Bold.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/berlin-type/BerlinTypeWeb-Bold.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/berlin-type/BerlinTypeWeb-Bold.svg#Inter') format('svg'); /* Legacy iOS */
+  }
