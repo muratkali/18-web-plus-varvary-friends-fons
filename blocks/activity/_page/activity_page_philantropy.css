@@ -1,0 +1,12 @@
+.activity_page_philantropy {
+    padding-top: 0px;
+    padding-bottom: 170px;
+}
+
+@media screen and (max-width: 750px) {
+    .activity_page_philantropy {
+        padding-top: 0px;
+        padding-bottom: 56px;    
+    }
+  }
+  

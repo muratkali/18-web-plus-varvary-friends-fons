@@ -1,0 +1,8 @@
+.link-btn_theme_gray {
+  background-color: #F8F8F8;
+}
+
+.link-btn_theme_gray:hover {
+  background-color: #F1F5F9;
+  opacity: 1;
+}
