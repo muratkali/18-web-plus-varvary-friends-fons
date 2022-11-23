@@ -1,0 +1,23 @@
+.participants__fond-link-button {
+  background-image: url(../../../images/icons/arrow-btn.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-position-x: 206px; 
+  margin: 0;
+  padding: 0;
+  width: 259px;
+  height: 56px;
+  border-radius: 56px;
+  border: 0;
+  outline: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media screen and (max-width: 768px) {
+  .participants__fond-link-button {
+    width: 327px;
+    background-position-x: 240px ;
+  }
+}

@@ -1,0 +1,11 @@
+.nco__container-image {
+  margin: 0;
+  padding: 0;
+  max-width: 184px;
+  max-height: 120px;
+  justify-content: center;
+  align-items: center;
+  object-position: center;
+  object-fit: contain;
+  aspect-ratio: 16/9;
+}

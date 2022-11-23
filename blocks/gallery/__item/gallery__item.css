@@ -2,7 +2,10 @@
     margin: 0;
     padding: 0;
     width: 100%;
-    min-height: calc(100vw/2);
+    height: 600px;
+    /* min-height: calc(100vw/2); */
+    /* max-height: fit-content;
+    max-width: fit-content; */
     overflow-x: hidden;
     background-size: cover;
     background-repeat: no-repeat;  

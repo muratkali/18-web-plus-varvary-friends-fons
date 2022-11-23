@@ -1,0 +1,14 @@
+.shift {
+  animation-name: shift;
+  animation-duration: .3s;
+}
+@keyframes shift {
+  from {
+    transform: translateX(0vw);
+
+  }
+  to {
+    transform: translateX(-100vw);
+
+  }
+}
