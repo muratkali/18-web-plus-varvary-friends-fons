@@ -409,7 +409,10 @@
 @import url(../blocks/about-section/__header-title/_hide/about-section__header-title_hide.css);
 @import url(../blocks/about-section/__header-title/_replacement/about-section__header-title_replacement.css);
 
-/* block_club_MShPF */
+
+/*block_club_MShPF*/
+/*-------by Polina Rubacova---------*/
+
 @import url(../blocks/sponsors/sponsors.css);
 @import url(../blocks/sponsors/__header/sponsors__header.css);
 @import url(../blocks/sponsors/__photos/sponsors__photos.css);
@@ -442,6 +445,12 @@
 @import url(../blocks/link-btn/_theme/link-btn_theme_gray.css);
 
 
+@import url(../blocks/sponsors/sponsors.css);
+@import url(../blocks/sponsors/__header/sponsors__header.css);
+@import url(../blocks/sponsors/__photos/sponsors__photos.css);
+@import url(../blocks/sponsors/__button/sponsors__button.css);
+@import url(../blocks/sponsors/__arrow/sponsors__arrow.css);
+
 /* PROF-PAGE */
 /*------- by Ali Muratkali ------*/
 
@@ -452,13 +461,6 @@
 @import url(../blocks/gallery/__item/gallery__item.css);
 @import url(../blocks/gallery/__button/_type/gallery__button_type_next.css);
 @import url(../blocks/gallery/__button/_type/gallery__button_type_previous.css);
-
-
-
-
-
-
-
 
 /* -----------oleg Typushtanov ----------------> */
 /* Baners ProCharity MSK Profesional popup*/
@@ -736,3 +738,57 @@
 @import url(../blocks/colleagues/__title/colleagues__title.css);
 @import url(../blocks/colleagues/colleagues.css);
 
+
+@import url(../vendor/fonts/berlin-type.css);/* шрифт */
+@import url(../blocks/shift/shift.css);/* анимация */
+/* блок участники */
+@import url(../blocks/participants/participants.css);
+@import url(../blocks/participants/__title/participants__title.css);
+@import url(../blocks/participants/__wrapper/participants__wrapper.css);
+@import url(../blocks/participants/__buttons/participants__buttons.css);
+@import url(../blocks/participants/__dscr-btn/participants__dscr-btn.css);
+@import url(../blocks/participants/__description/participants__description.css);
+@import url(../blocks/participants/__dot/participants__dot.css);
+@import url(../blocks/participants/__dot/_active/participants__dot_active.css);
+@import url(../blocks/participants/__dots/participants__dots.css);
+@import url(../blocks/participants/__fond-button-name/participants__fond-button-name.css);
+@import url(../blocks/participants/__fond-link-button/participants__fond-link-button.css);
+@import url(../blocks/participants/__fond-link/participants__fond-link.css);
+@import url(../blocks/participants/__image/participants__image.css);
+@import url(../blocks/participants/__item/participants__item.css);
+@import url(../blocks/participants/__item/_active/participants__item_active.css);
+@import url(../blocks/participants/__list/participants__list.css);
+/* блок нко */
+@import url(../blocks/nco/nco.css);
+@import url(../blocks/nco/__button-next/nco__button-next.css);
+@import url(../blocks/nco/__button-previous/nco__button-previous.css);
+@import url(../blocks/nco/__container-element/nco__container-element.css);
+@import url(../blocks/nco/__container-image/nco__container-image.css);
+@import url(../blocks/nco/__container-item/nco__container-item.css);
+@import url(../blocks/nco/__container-list/nco__container-list.css);
+@import url(../blocks/nco/__title/nco__title.css);
+/* блок партнеры */
+@import url(../blocks/partners/partners.css);
+@import url(../blocks/partners/__button-next/partners__button-next.css);
+@import url(../blocks/partners/__button-previous/partners__button-previous.css);
+@import url(../blocks/partners/__container-image/partners__container-image.css);
+@import url(../blocks/partners/__container-item/partners__container-item.css);
+@import url(../blocks/partners/__container-list/partners__container-list.css);
+@import url(../blocks/partners/__title/partners__title.css);
+@import url(../blocks/colleagues/__item-paragraph/colleagues__item-paragraph.css);
+@import url(../blocks/colleagues/__item/colleagues__item.css);
+@import url(../blocks/colleagues/__list/colleagues__list.css);
+@import url(../blocks/colleagues/__title/colleagues__title.css);
+@import url(../blocks/colleagues/colleagues.css);
+
+
+/*-----------For business page---------------*/
+/*---------------Polina Rubacova --------------------*/
+@import url("../blocks/projects/projects.css");
+@import url("../blocks/projects/__card/projects__card.css");
+@import url("../blocks/projects/__arrow/projects__arrow.css");
+@import url("../blocks/projects/__slider/projects__slider.css");
+@import url("../blocks/projects/__title/projects__title.css");
+@import url("../blocks/projects/__text/projects__text.css");
+@import url("../blocks/projects/__header/projects__header.css");
+@import url("../blocks/projects/__indicator/projects__indicator.css");

@@ -1,0 +1,17 @@
+.projects__text {
+  font-family: Berlin Type;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: left;
+  padding-top: 24px;
+  max-width: 770px;
+}
+
+@media (max-width: 650px) {
+  .projects__text {
+    font-size: 16px;
+  line-height: 24px;
+  }
+}

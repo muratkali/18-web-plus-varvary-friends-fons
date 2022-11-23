@@ -1,0 +1,18 @@
+.projects__indicators {
+  list-style: none;
+  display: flex;
+  padding: 18px 0 0;
+  gap: 12px;
+}
+
+.projects__indicator {
+  width: 10px;
+  height: 10px;
+  border-radius: 6px;
+  background-color: #e3e7eb;
+}
+
+.projects__indicator_active {
+  width: 29px;
+  background-color: #77C5D5;
+}

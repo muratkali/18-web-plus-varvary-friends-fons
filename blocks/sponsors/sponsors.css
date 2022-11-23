@@ -9,7 +9,7 @@
     "header button"
     "slider slider";
   column-gap: 40px;
-  margin: 0;
+  margin: 0 0 156px;
   padding: 56px 60px 0;
 }
 
@@ -17,6 +17,7 @@
   .sponsors {
     position: relative;
     padding: 57px 24px 0;
+    margin-bottom: 105px;
     display: flex;
     flex-direction: column;
   }
