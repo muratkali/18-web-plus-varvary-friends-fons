@@ -1,0 +1,13 @@
+.nco__container-list {
+  margin: 0;
+  padding: 0;
+  max-width: 1032px;
+  max-height: 120px;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 28px;
+ 
+  /* transform: translateX(5px); */
+}

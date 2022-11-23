@@ -1,0 +1,15 @@
+.participants__item {
+  margin: 0 auto; 
+  padding: 0;
+  display: none;
+  width: fit-content;
+  max-height: fit-content;
+  list-style: none;
+  align-items: flex-start;
+}
+
+@media screen and (max-width: 768) {
+  .participants__item {
+    margin: 0;
+  }
+}

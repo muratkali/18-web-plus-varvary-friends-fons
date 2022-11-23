@@ -1,0 +1,17 @@
+.participants__wrapper {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  width: 702px;
+  max-height: fit-content;
+}
+
+@media screen and (max-width: 768px) {
+  .participants__wrapper {
+    margin: 0;
+    width: 375px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+}

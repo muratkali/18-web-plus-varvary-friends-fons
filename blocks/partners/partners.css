@@ -1,12 +1,19 @@
 .partners {
-  max-width: 1031px;
-  margin: 0 auto;
-  padding-top: 96px;
+  margin: 0 auto 23px;
+  padding: 0;
+  max-width: 1032px;
+  max-height: 196px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  overflow: hidden;
+  position: relative;
 }
 
 @media screen and (max-width: 1080px) {
   .partners {
-    padding-top: 56px;
+    display: none;
   }
 }
 

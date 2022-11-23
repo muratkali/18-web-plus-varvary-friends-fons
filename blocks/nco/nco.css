@@ -1,0 +1,19 @@
+.nco {
+  margin: 96px auto 96px;
+  padding: 0;
+  max-width: 1032px;
+  max-height: 209px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 1080px) {
+  .nco {
+    display: none;
+  }
+}
