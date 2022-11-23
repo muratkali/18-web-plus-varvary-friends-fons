@@ -6,3 +6,9 @@
   letter-spacing: 0em;
   text-align: center;
 }
+
+@media (max-width: 500px) {
+  .projects__header {
+    font-size: 32px;
+  }
+}

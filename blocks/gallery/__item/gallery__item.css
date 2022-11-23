@@ -1,0 +1,36 @@
+.gallery__item {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    min-height: calc(100vw/2);
+    overflow-x: hidden;
+    background-size: cover;
+    background-repeat: no-repeat;  
+    box-sizing: border-box;
+    background-position: center center;
+    z-index: 1;
+}
+
+.gallery__item1 {
+    background-image: url(
+  "/images/program_gallery-1.png");
+}
+.gallery__item2 {
+    background-image: url(
+  "/images/program_gallery-2.png");
+}
+.gallery__item3 {
+    background-image: url(
+    "/images/program_gallery-3.png");
+}
+
+.gallery__item4 {
+    background-image: url(
+    "/images/program_gallery-4.png");
+}
+
+.gallery__item5 {
+    background-image: url(
+    "/images/program_gallery-5.png");
+}
+  
