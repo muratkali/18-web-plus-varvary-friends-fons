@@ -8,5 +8,6 @@
   align-items: center;
   justify-content: center;
   gap: 28px;
-  transform: translateX(5px);
+ 
+  /* transform: translateX(5px); */
 }

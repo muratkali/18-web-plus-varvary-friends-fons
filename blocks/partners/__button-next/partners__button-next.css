@@ -1,6 +1,7 @@
 .partners__button-next {
   margin: 0;
   padding: 0;
+  display: flex;
   background-image: url(../../../images/icons/ArrowRight.svg);
   background-repeat: no-repeat;
   background-position: center;

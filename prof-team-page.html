@@ -57,11 +57,36 @@
         </ul>
       </div>
     </section>
+
+    <section class="participants">
+      <h2 class="participants__title">Участники программы</h2>
+      <ul class="participants__list"></ul>
+      <ul class="participants__dots">
+        <li class="participants__dot "></li>
+        <li class="participants__dot "></li>
+        <li class="participants__dot participants__dot_active"></li>
+      </ul>
+    </section>
+    <template id="participantsTemplate">
+      <li class="participants__item shift">
+        <div class="participants__wrapper">
+          <img class="participants__image" src="" alt="Логотип фонда участника программы">
+          <div class="participants__dscr-btn">
+            <p class="participants__description"></p>
+            <a class="participants__fond-link" href=""><button class="participants__fond-link-button">
+                <p class="participants__fond-button-name">Перейти на сайт фонда</p>
+              </button>
+            </a>
+          </div>
+        </div>
+      </li>
+    </template>
+
   </main>
 
   <footer class="footer">
 
   </footer>
-
+<script type="module" src="scripts/functionsParticipants.js"></script>
 </body>
 </html>

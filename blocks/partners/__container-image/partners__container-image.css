@@ -3,7 +3,8 @@
   padding: 0;
   justify-content: center;
   align-items: center;
-  height: fit-content;
+  width: 124px;
+  height: 124px;
   object-position: center;
   object-fit: contain;
   aspect-ratio: 1;

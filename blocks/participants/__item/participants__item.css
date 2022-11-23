@@ -1,8 +1,8 @@
 .participants__item {
-  margin: 0;
+  margin: 0 auto; 
   padding: 0;
-  /* display: none; */
-  max-width: fit-content;
+  display: none;
+  width: fit-content;
   max-height: fit-content;
   list-style: none;
   align-items: flex-start;
