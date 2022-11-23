@@ -1,0 +1,23 @@
+.sponsors {
+  width: 100%;
+  background-color: #1F3B5F;
+  color: white;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas:
+    "header text"
+    "header button"
+    "slider slider";
+  column-gap: 40px;
+  margin: 0;
+  padding: 56px 60px 0;
+}
+
+@media (max-width: 700px) {
+  .sponsors {
+    position: relative;
+    padding: 57px 24px 0;
+    display: flex;
+    flex-direction: column;
+  }
+}

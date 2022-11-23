@@ -1,0 +1,5 @@
+.gallery__button_type_previous {
+    background-image: url('/images/arrow-left.svg');
+    left: 0;
+    margin-left: 20px;
+  }
