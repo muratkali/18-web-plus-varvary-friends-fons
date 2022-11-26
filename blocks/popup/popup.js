@@ -17,8 +17,8 @@ function opensPopup() {
 
 function closesPopup() {
   const millisecond = 300;
-  popup.classList.add('popup_visibility');
-  setTimeout(() => popup.classList.remove('popup_opened', 'popup_visibility'), millisecond);
+  popup.classList.add('popup_visibility_active');
+  setTimeout(() => popup.classList.remove('popup_opened', 'popup_visibility_active'), millisecond);
 }
 
 

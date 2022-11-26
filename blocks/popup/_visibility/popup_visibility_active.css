@@ -1,4 +1,4 @@
-.popup_visibility {
+.popup_visibility_active {
   animation: popup_visibility .3s ease-in-out forwards;
 }
 
