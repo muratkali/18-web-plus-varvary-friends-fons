@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ProCharity</title>
+  <link rel="stylesheet" href="./pages/index.css">
+  <script src="./pages/index.js" defer></script>
+  <script src="./pages/radioButtonStyle.js" defer></script>
+  <script src="./vendor/slider/slider.js" defer></script>
+  <meta name="description" content="Программа ProCharity">
+  <meta name="keywords" content="помощь людям, НКО, благотворительные организации">
+</head>
+
+<body class="page">
+  <header class="header">
+  </header>
+
+  <main class="main">
+    <section class="about-section">
+
+      <div class="about-section__header">
+        <h2 class="about-section__header-title">О программе</h2>
+        <p class="about-section__header-text"><span class="about-section__bold">ProCharity</span> — это онлайн
+          платформа, которая помогает найти волонтёров, готовых помогать фондам и благотворительным организациям своими
+          профессиональными навыками на безвозмездной основе.</p>
+      </div>
+      <div class="about-section__targets">
+        <h2 class="about-section__targets-title">Цели программы</h2>
+        <ul class="listing">
+          <li class="listing__point">Возможность для каждого стать частью сообщества интеллектуальных волонтеров</li>
+          <li class="listing__point">Развитие осознанного общества и индустрии благотворительности за счет
+            стремительного личностного роста и образования, основанными на профессионализме, доверии и взаимопомощи</li>
+          <li class="listing__point">Предоставление возможности НКО безвозмездно получить навыки и опыт профессионалов
+            из разных сфер</li>
+          <li class="listing__point">Формирование вокруг себя сообщество профессионалов-новаторов, готовых помогать и
+            поддерживать благотворительные организации</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="nco">
+      <h2 class="nco__title">Более 700 НКО уже с нами</h2>
+      <ul class="nco__container-list shift"></ul>
+      <button class="nco__button-previous"></button>
+      <button class="nco__button-next"></button>
+    </section>
+    <template id="ncoTemplate">
+      <li class="nco__container-item">
+        <div class="nco__container-element">
+          <img class="nco__container-image" src="" alt="">
+        </div>
+      </li>
+    </template>
+
+    <section class="partners">
+      <h2 class="partners__title">Наши партнёры</h2>
+      <ul class="partners__container-list shift"></ul>
+      <button class="partners__button-previous"></button>
+      <button class="partners__button-next"></button>
+    </section>
+    <template id="partnersTemplate">
+      <li class="partners__container-item">
+        <img class="partners__container-image" src="" alt="">
+      </li>
+    </template>
+
+  </main>
+
+  <footer class="footer">
+
+  </footer>
+<script type="module" src="scripts/functionsNco.js"></script>
+<script type="module" src="scripts/functionsPartners.js"></script>
+</body>
+
+</html>

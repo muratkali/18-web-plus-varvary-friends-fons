@@ -1,0 +1,19 @@
+.participants__image {
+  margin: 0 66px 0 0;
+  padding: 0;
+  max-width: 167px;
+  justify-content: center;
+  align-items: center;
+  height: fit-content;
+  object-position: center;
+  object-fit: contain;
+  aspect-ratio: 1;
+}
+
+@media screen and (max-width: 768px) {
+  .participants__image {
+    margin: 0 0 16px 24px;
+    max-width: 140px;
+  }
+  
+}

@@ -1,0 +1,11 @@
+.sponsors__button {
+  margin-top: 24px;
+  padding: 18px 45px;
+  background-color: white;
+  border: none;
+  border-radius: 48px;
+  width: 200px;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 700;
+}

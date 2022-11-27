@@ -1,0 +1,9 @@
+.about-section__header-title_replacement {
+  display: none;
+}
+
+@media screen and (max-width: 500px) {
+  .about-section__header-title_replacement {
+    display: block;
+  }
+}

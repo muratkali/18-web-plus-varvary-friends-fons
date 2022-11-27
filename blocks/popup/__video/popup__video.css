@@ -1,0 +1,14 @@
+.popup__video {
+  position: relative;
+  aspect-ratio: 2.32 / 1;
+  width: 100%;
+  margin: 0 46px;
+}
+
+@media (max-width: 768px) {
+  .popup__video {
+    display: block;
+    aspect-ratio: 1.04 / 1;
+    margin: 0 8px;
+  }
+}

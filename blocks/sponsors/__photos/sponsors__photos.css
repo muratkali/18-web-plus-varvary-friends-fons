@@ -1,0 +1,15 @@
+.sponsors__photos {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  top: 48px;
+  grid-area: slider;
+}
+
+.sponsors__photo {
+  display: none;
+}
+.sponsors__photo_active {
+  display: inline;
+}

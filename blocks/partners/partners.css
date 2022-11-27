@@ -1,0 +1,36 @@
+.partners {
+  margin: 0 auto 23px;
+  padding: 0;
+  max-width: 1032px;
+  max-height: 196px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  overflow: hidden;
+  position: relative;
+}
+
+@media screen and (max-width: 1080px) {
+  .partners {
+    display: none;
+  }
+}
+
+/* show only to screen readers */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+  height: 124px;
+}
+
+/*.slider__item {*/
+/*  height: 700px;*/
+/*}*/

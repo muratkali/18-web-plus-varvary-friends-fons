@@ -1,0 +1,18 @@
+.link-btn_size_l {
+  border-radius: 56px;
+  padding: 18px 0;
+  max-width: 706px;
+  width: 95%;
+  text-align: center;
+  display: inline-block;
+  text-decoration: none;
+  font-family: 'Berlin Type', 'Inter', sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.25;
+  color: black;
+  transition: ease-in-out;
+  transition-duration: 0.3s;
+  box-sizing: border-box;
+  margin: 0;
+}

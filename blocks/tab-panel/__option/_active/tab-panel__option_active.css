@@ -1,0 +1,4 @@
+.tab-panel__option_active {
+  font-weight: 700;
+  border-bottom: 4px solid #54A8B6;
+}

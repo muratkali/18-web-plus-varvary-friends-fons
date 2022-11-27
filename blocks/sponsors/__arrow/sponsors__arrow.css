@@ -1,0 +1,24 @@
+.sponsors__arrow {
+  background-color: #F8F8F8;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  padding: 8px;
+  cursor: pointer;
+}
+.sponsors__arrow_right {
+  transform: rotate(180deg);
+}
+.sponsors__arrow_inactive {
+  opacity: 16%;
+  cursor: default;
+}
+
+@media (max-width: 700px) {
+  .sponsors__arrow {
+    position: absolute;
+  }
+  .sponsors__arrow_right {
+    right: 0;
+  }
+}

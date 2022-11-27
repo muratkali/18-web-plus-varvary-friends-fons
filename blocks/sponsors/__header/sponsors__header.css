@@ -1,0 +1,5 @@
+.sponsors__header {
+  max-width: 484px;
+  text-align: left;
+  grid-area: header;
+}

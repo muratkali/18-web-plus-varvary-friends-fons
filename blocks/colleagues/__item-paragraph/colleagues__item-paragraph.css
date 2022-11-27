@@ -1,0 +1,9 @@
+.colleagues__item-paragraph {
+  font-family: "Berlin Type";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.125rem;
+  line-height: 1.67;
+  color: #000;
+  height: fit-content;
+}
